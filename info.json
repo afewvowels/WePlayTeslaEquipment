@@ -1,0 +1,11 @@
+{
+  "name": "WePlayTeslaEquipment",
+  "version": "0.1.0",
+  "title": "WePlay: Personal Tesla Defense Equipment",
+  "author": "WePlay",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base",
+    "? space-age"
+  ]
+}

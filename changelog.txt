@@ -1,0 +1,44 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026. 11. 01
+  Features:
+    - Space Age is now optional.
+    - Without Space Age: chain lightning built from the base electric beam, crafted in any assembler,
+      unlocked with personal laser defense.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 2026. 10. 09
+  Features:
+    - 2.1 release.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2026. 10. 09
+  Features:
+    - Hide recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2026. 10. 09
+  Features:
+    - For real 2.0 version release.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2026. 10. 09
+  Features:
+    - 2.1 version release.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2026. 10. 09
+  Features:
+    - Tweaks to damage and range. 2.0 version release.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2026. 10. 09
+  Features:
+    - Update strings.cfg with equipment-name.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2026. 10. 08
+  Features:
+    - Tesla equipment for personal equipment.
+  To-do:
+    - Get a new thumbnail icon.
