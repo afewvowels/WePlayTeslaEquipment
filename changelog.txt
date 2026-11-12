@@ -1,4 +1,37 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2026. 11. 12
+  Graphics:
+    - Lightning now curves: each span between corners bows out into an arc. Alternative "smooth"
+      and "straight" styles can be picked at the top of control.lua.
+    - The number of corners in a bolt now varies each time instead of depending only on distance.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2026. 11. 12
+  Changes:
+    - The mod's own chain lightning is now used with and without Space Age. Space Age still changes
+      the recipe, the unlocking technology and which damage research applies.
+  Graphics:
+    - Lightning now follows a jagged path of random waypoints instead of a straight line. The path
+      re-rolls several times a second and follows moving targets.
+    - Smaller, tidier lightning sprites built for the shorter path pieces.
+    - Spark bursts only at the shooter and the target, not at every corner.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2026. 11. 12
+  Graphics:
+    - Lightning arcs are much wider and less orderly: taller sprites, bigger jumps between frames,
+      a faint second strand that splits off and rejoins, longer forks and a strobing flicker.
+    - Slowed the lightning animation down so it no longer blurs into a solid tube.
+    - The ends of the bolt now always touch the shooter and the target.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026. 11. 12
+  Graphics:
+    - New forking chain lightning sprites when playing without Space Age, replacing the base game's
+      electric beam look. The whole bolt jumps around every frame, with spark bursts at the
+      shooter and at each target.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026. 11. 01
   Features:
