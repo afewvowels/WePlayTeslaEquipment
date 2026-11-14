@@ -1,4 +1,43 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: 2026. 11. 14
+  Changes:
+    - Now requires the WePlay Beam Library (0.16.0 or later). The lightning's shapes, twitching,
+      branches and moods, the beam pieces and the visual beam prototypes now come from the library,
+      so the same lightning engine can be shared with other WePlay mods. The look and performance are
+      unchanged.
+    - Visual beam prototypes are renamed to <family>-<tint>-<speed>[-first|-last|-single], e.g.
+      wp-tesla-arc-violet-dim-fast-first.
+---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 2026. 11. 14
+  Graphics:
+    - Bolts now come in four tints (white, ice, blue, violet), so overlapping lightning mixes colours
+      instead of all adding up to flat white.
+    - Added depth: bolts can be bright or dim, and chain jumps are usually dim so they sit behind the
+      main shots.
+    - Tighter, softer glow on the lightning and spark bursts, so big fights keep the gaps between
+      bolts instead of fogging into one glowing mass.
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2026. 11. 14
+  Features:
+    - Added a "Lightning visuals" map setting. Quality keeps the full lightning. Performance drops the
+      branches, draws fewer and longer pieces and redraws less often, creating about a quarter as
+      many beams. Damage is the same in both.
+  Locale:
+    - Added names and descriptions for the new setting.
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2026. 11. 14
+  Graphics:
+    - Lightning now has moods: it thrashes, settles and twitches at an irregular pace instead of
+      redrawing at a fixed rate. Calm stretches hold their shape and only twitch.
+    - The sprite flicker speeds up and slows down with the mood.
+    - Long dead-end branches now split off the bolt and fade out, sometimes with a smaller branch of
+      their own.
+    - Taller lightning sprites with longer forks.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 2026. 11. 12
   Graphics:
